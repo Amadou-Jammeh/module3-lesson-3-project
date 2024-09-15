@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image:url("oka.jpg")
+        }
+        input[type="text"]{
+            border: 5px solid blue;
+            border-color:blue green blue green;
+        }
+         input[type="passward"]{
+            border: 2px solid blue;
+            border-color:blue green;
+        }
+        }
+         input[type="email"]{
+            border: 9px solid blue;
+            border-color: green;
+            font:arial black;
+        }
+        .ul1{
+            color: green;
+            font-weight: bold;
+            font-family: algerian;
+            text-align:left;
+            line-height:1
+        }
+        .ul2{
+            color: blue;
+            font-weight: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:left;
+            line-height:1
+        }
+        a:hover {
+            color:white;
+        }
+        li:nth-child(1){
+            color:red;
+            font-weight: bold;
+            font-family: ebrima;
+            text-align:left;
+            line-height:1;
+            background-color:yellow;
+            border:1px solid green;
+        }
+        .class1{
+            color:purple;
+        }
+        .class2{
+            color:pink;
+        }
+        .class3{
+            color:red;
+        }
+    
+        div:not(.class1) {
+            border:1px dashed black;
+            background-color:white;
+        }
+        .decorated::before{
+            content: "content😍";
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="username">
+    <input type="passward" placeholder="passward">
+    <input type="email" placeholder="email">
+    <ul class="ul1">
+        <li>cofee</li>
+        <li>milk</li>
+        <li>tea</li>
+        <li>sandwhich</li>
+    </ul>
+    <ul class="ul2">
+        <li>book</li>
+        <li>pencil</li>
+        <li>bag</li>
+        <li>table</li>
+    </ul>
+    <a href="#">WELCOME TO MY INTERNET CAFE</a>
+    <div class="class1">THIS IS A CAR</div>
+    <div class="class2">THIS IS AN AEROPLANE</div>
+    <div class="class3">THIS IS A TOY</div><br>
+    <div class="decorated">content</div>
+
+
+</body>
+</html>
